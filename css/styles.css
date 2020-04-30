@@ -40,3 +40,32 @@ body{
     border-bottom: 1px solid #ddd;
     padding: 10px;
 }
+.carousel {
+    background: #512DA8;
+}
+
+.carousel-item {
+    background: #512DA8;
+  height: 300px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-indicators{
+    top : 100%;
+    margin-top: 250px;
+}
+.carousel-control-prev{
+    margin-top:  150px;
+}
+.carousel-control-next{
+    margin-top:  150px;
+}
